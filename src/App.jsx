@@ -29,7 +29,7 @@ function App() {
     const formData = new FormData();
     formData.append("image", image);
 
-    const result = await axios.post("https://upload-image-front.vercel.app/images", formData, {
+    const result = await axios.post("https://upload-image-dd.herokuapp.com/images", formData, {
       headers: { "Content-Type": "multipart/form-data" },
     });
 

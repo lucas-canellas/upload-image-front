@@ -28,11 +28,11 @@ export const Uploaded = ({ image }) => {
         <h1 className="title">Uploaded Successfully!</h1>
 
         <div className="box-image">
-          <img src={`https://upload-image-front.vercel.app${image}`} />
+          <img src={`https://upload-image-dd.herokuapp.com${image}`} />
         </div>
         <div className="input-wrapper">
-          <p>{`https://upload-image-front.vercel.app${image}`.substr(0, 50)}...</p>
-          <button onClick={copyText} value={`https://upload-image-front.vercel.app${image}`}>
+          <p>{`https://upload-image-dd.herokuapp.com${image}`.substr(0, 50)}...</p>
+          <button onClick={copyText} value={`https://upload-image-dd.herokuapp.com${image}`}>
             Copy link{" "}
           </button>
         </div>
